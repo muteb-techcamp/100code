@@ -16,3 +16,10 @@ print(myorder.format(quantity,itemno,price))
 first= "muteb" ; last= "alotaibi"
 full=f"{first} {last}"
 print(full)
+############################################
+# تمرير الشقلعةثىفس للدالة باستخدام رقم الخانة في المصفوفة 
+quantity=3
+itemno=567
+price=49.50
+myorder="i want  to pay {2} dollars for {0} pices of {1} items"
+print(myorder.format(quantity,itemno,price))
