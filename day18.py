@@ -1,0 +1,13 @@
+mylist=['a','b','c','d','e','f','g']
+mylist.append('h')
+print(mylist)
+mylist.insert(1,'v')
+print(mylist)
+mylist.remove('d')
+print(mylist)
+mylist.sort()
+print(mylist)
+mylist.pop()
+print(mylist)
+mylist.clear()
+print(mylist)
