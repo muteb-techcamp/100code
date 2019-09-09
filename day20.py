@@ -28,6 +28,6 @@ for x in myset1:
 
  print("Add multiple items to a set, using the update() method. ")
  myset3={"muteb","turki","yasser"}
- myset3.update("sultan","fahad","saif")
+ myset3.update(["sultan","fahad","saif"])
  print(myset3)
  
